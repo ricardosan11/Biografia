@@ -1,0 +1,29 @@
+body{
+
+		background: black;
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		background-position: center;
+		background-attachment: fixed;
+}
+
+p{
+	background: black;
+	padding: 20px;
+	border: 5px dashed white;
+
+}
+
+
+a{
+	background: black;
+	color: white;
+	padding: 10px;
+	text-decoration: none;
+	border: 3px solid white;
+}
+
+h2{
+
+	font-size: 27;
+}

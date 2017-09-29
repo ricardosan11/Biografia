@@ -1,0 +1,94 @@
+body{
+
+		background-image: url(../imagenes/paisaje2.jpg);
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		background-position: center;
+		background-attachment: fixed;
+}
+
+p{
+	color:white;
+	background: black;
+	padding: 20px;
+	border: 5px dashed white;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	
+
+}
+
+a{
+	text-decoration: none;
+	padding: 10px;
+	border: 3px inset white;
+	background: black;
+	color: white;
+
+}
+
+
+h2{
+
+	font-size: 27;
+}
+
+
+#barra{
+
+	border:0;
+	padding: 0;
+	list-style: none;
+	/*width: 185px;*/
+}
+
+#barra a{
+
+	color: black;
+	font-size: 11px;
+	text-transform: uppercase;
+	text-decoration: none;
+	border: 1px dashed #999;
+	padding: 7px 5px;
+
+	display: block;
+
+	background-color: #E7E7E7;
+	background-image: url(../imagenes/fondolink.png);
+	background-repeat: no-repeat;
+	background-position: 0 2px;
+	padding: 7px 5px 7px 30px;
+
+}
+
+#barra a:hover{
+
+	font-weight: bold;
+	background-color: #07F5F7;
+	background-position: 3px 50%;  
+}
+
+#inicio #linkinicio,
+#estudios #linkestudios,
+#proyecto #linkproyecto,
+#logros #linklogros,
+#contacto #linkcontacto{
+
+	background-color: white;
+	background-position: 97% 100%;
+	font-weight: bold;
+}
+
+#barra li{
+
+	float: left;
+	width: 200px;
+
+}
+
+#centro{
+
+	background-color: red; 
+	width: 1000px;
+	margin: 0 auto;
+}
+
